@@ -1,0 +1,495 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.450671066000041, 46.548517092000054],
+          [6.450621445000024, 46.54836554100007],
+          [6.450431008000066, 46.54794040100006],
+          [6.450307627000029, 46.54760916400005],
+          [6.4501989970000295, 46.547304731000054]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "Shape_Length": 0.0013020145579102334,
+        "id": "TTI-9ee23c63-566c-4ebd-9d7e-4330863b8a45-TTR41189416348011000",
+        "iconCategory": 9,
+        "magnitudeOfDelay": 0,
+        "startTime": "2026-03-30T11:11:30Z",
+        "endTime": null,
+        "fromStreet": "Cottens (Kantonsstrasse)",
+        "toStreet": "Clarmont (Kantonsstrasse)",
+        "length": 139.617,
+        "delay": null,
+        "timeValidity": "present",
+        "probabilityOfOccurrence": "probable",
+        "eventDescription": "Travaux",
+        "color": "#F5B041"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.4501989970000295, 46.547304731000054],
+          [6.450307627000029, 46.54760916400005],
+          [6.450431008000066, 46.54794040100006],
+          [6.450621445000024, 46.54836554100007],
+          [6.450671066000041, 46.548517092000054]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "Shape_Length": 0.0013020145579102334,
+        "id": "TTI-9ee23c63-566c-4ebd-9d7e-4330863b8a45-TTR41189416132011000",
+        "iconCategory": 9,
+        "magnitudeOfDelay": 0,
+        "startTime": "2026-03-18T15:27:00Z",
+        "endTime": null,
+        "fromStreet": "Clarmont (Kantonsstrasse)",
+        "toStreet": "Cottens (Kantonsstrasse)",
+        "length": 139.6165438857,
+        "delay": null,
+        "timeValidity": "present",
+        "probabilityOfOccurrence": "probable",
+        "eventDescription": "Travaux",
+        "color": "#F5B041"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.439177800000039, 46.51142076600007],
+          [6.4393172750000645, 46.511490508000065],
+          [6.441697736000037, 46.512461511000026],
+          [6.4427987830000575, 46.51290002300004],
+          [6.443108578000022, 46.51302069700006],
+          [6.44335802300003, 46.51311056700007],
+          [6.443457265000063, 46.513145466000026],
+          [6.443564553000044, 46.513183017000074],
+          [6.444240470000068, 46.51341767200006],
+          [6.445062567000036, 46.513714047000065],
+          [6.445679475000077, 46.51393537400003],
+          [6.446759064000048, 46.51435109000005],
+          [6.447118480000029, 46.51448791200005],
+          [6.448149790000059, 46.514875474000064],
+          [6.449747045000038, 46.515476281000076],
+          [6.4505624370000305, 46.51576191500004],
+          [6.451125701000024, 46.51596045100007],
+          [6.452052404000028, 46.51629165000003],
+          [6.452169080000033, 46.51634667700006],
+          [6.452304531000038, 46.516419065000036],
+          [6.452406455000073, 46.516476745000034],
+          [6.452642490000073, 46.51662694300006],
+          [6.45285036100006, 46.51678117800003],
+          [6.452999224000052, 46.51690991800007],
+          [6.453157474000022, 46.517057461000036],
+          [6.453296949000048, 46.517217059000075],
+          [6.453304995000053, 46.51722778800007],
+          [6.453468610000073, 46.51744367900005],
+          [6.453528960000028, 46.51751877700008],
+          [6.453559805000054, 46.51755632600003],
+          [6.453664411000034, 46.517699830000026],
+          [6.45373414900007, 46.517789693000054],
+          [6.453858872000069, 46.51794928800007],
+          [6.454058696000061, 46.51820676300008],
+          [6.454165984000042, 46.518343575000074],
+          [6.454286684000067, 46.518517934000045],
+          [6.45432691700006, 46.51857555400005],
+          [6.454367150000053, 46.51861985100004]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "Shape_Length": 0.017096747755404828,
+        "id": "TTI-9ee23c63-566c-4ebd-9d7e-4330863b8a45-TTR41218270440004000",
+        "iconCategory": 8,
+        "magnitudeOfDelay": 4,
+        "startTime": "2026-04-08T06:56:00Z",
+        "endTime": null,
+        "fromStreet": "Villars-sous-Yens (Kantonsstrasse)",
+        "toStreet": "Denens (Kantonsstrasse)",
+        "length": 1442.3009705276,
+        "delay": null,
+        "timeValidity": "present",
+        "probabilityOfOccurrence": "probable",
+        "eventDescription": "Route fermée",
+        "color": "#C0392B"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.485719491000054, 46.50582969700008],
+          [6.485757042000046, 46.50587533100003],
+          [6.48578520500007, 46.50591017600004],
+          [6.485810686000036, 46.50594104100003],
+          [6.485828121000054, 46.50597190500008],
+          [6.48583885000005, 46.50601211600008],
+          [6.485836167000059, 46.506049673000064],
+          [6.485817392000058, 46.50608722900006],
+          [6.4857972750000386, 46.506122075000064]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "Shape_Length": 0.0003408671285971537,
+        "id": "TTI-9ee23c63-566c-4ebd-9d7e-4330863b8a45-TTL41229812164002000",
+        "iconCategory": 6,
+        "magnitudeOfDelay": 2,
+        "startTime": "2026-04-09T07:33:30Z",
+        "endTime": "2026-04-09T07:57:30Z",
+        "fromStreet": "Sortie [15]",
+        "toStreet": "Route de la Longeraie",
+        "length": 35.20778587,
+        "delay": 53,
+        "timeValidity": "present",
+        "probabilityOfOccurrence": "certain",
+        "eventDescription": "Trafic en accordéon",
+        "color": "#FF0000"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.485574652000025, 46.51044980200004],
+          [6.485968937000052, 46.510066246000065],
+          [6.486331035000035, 46.509692090000044],
+          [6.486473192000062, 46.50942119100006],
+          [6.4867172730000675, 46.50924414900004]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "Shape_Length": 0.0016782102276233395,
+        "id": "TTI-9ee23c63-566c-4ebd-9d7e-4330863b8a45-TTR41229812220023000",
+        "iconCategory": 8,
+        "magnitudeOfDelay": 4,
+        "startTime": "2026-03-24T03:14:00Z",
+        "endTime": null,
+        "fromStreet": "Chemin de Tolochenaz / Chemin de la Mottaz",
+        "toStreet": "Avenue Monod / Avenue de la Gottaz",
+        "length": 161.3963273498,
+        "delay": null,
+        "timeValidity": "present",
+        "probabilityOfOccurrence": "probable",
+        "eventDescription": "Route fermée",
+        "color": "#C0392B"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.506182064000029, 46.51754559700004],
+          [6.505625506000058, 46.51728944600006],
+          [6.504470815000047, 46.516778524000074],
+          [6.503375132000031, 46.51634529300003],
+          [6.5015445250000425, 46.51573780500007],
+          [6.499587853000037, 46.51512090800003],
+          [6.497751881000056, 46.51441281000007],
+          [6.495273520000069, 46.513024734000055],
+          [6.49338122100005, 46.51169973100008],
+          [6.490931024000076, 46.50994960300005],
+          [6.4882555200000525, 46.50808946500007],
+          [6.485550512000032, 46.50632728000005],
+          [6.484194655000067, 46.50550518400007]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19,
+        "Shape_Length": 0.025241925972652863,
+        "id": "TTI-9ee23c63-566c-4ebd-9d7e-4330863b8a45-TTR41226926928096000",
+        "iconCategory": 9,
+        "magnitudeOfDelay": 1,
+        "startTime": "2026-04-08T03:00:30Z",
+        "endTime": "2026-08-05T20:00:00Z",
+        "fromStreet": "Échangeur Écublens (A1)",
+        "toStreet": "Morges-Ouest (A1)",
+        "length": 2170.62,
+        "delay": 45,
+        "timeValidity": "present",
+        "probabilityOfOccurrence": "probable",
+        "eventDescription": "Ralentissement Chantiers A1",
+        "color": "#F5B041"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.571998109000049, 46.535739051000064],
+          [6.571454962000075, 46.53495983800008],
+          [6.571020444000055, 46.53435503800006],
+          [6.570284177000076, 46.533339795000074],
+          [6.569562663000056, 46.53231115600005],
+          [6.5686963090000745, 46.53111492600004],
+          [6.567778994000037, 46.52984220500008],
+          [6.567045410000048, 46.52876932700008]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 33,
+        "Shape_Length": 0.008554439511359339,
+        "id": "TTI-9ee23c63-566c-4ebd-9d7e-4330863b8a45-TTR41229812676027000",
+        "iconCategory": 8,
+        "magnitudeOfDelay": 4,
+        "startTime": "2026-03-16T19:32:30Z",
+        "endTime": "2026-10-23T21:59:00Z",
+        "fromStreet": "Route du Pont Bleu / Chemin du Bochet",
+        "toStreet": "Route de la Maladière / Rue du Villars",
+        "length": 862.95,
+        "delay": null,
+        "timeValidity": "present",
+        "probabilityOfOccurrence": "certain",
+        "eventDescription": "Route fermée - Renens",
+        "color": "#C0392B"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.617410590000077, 46.55191277900008],
+          [6.6139170120000585, 46.55243178600006],
+          [6.608418484000026, 46.55322302600007],
+          [6.602588703000038, 46.554097428000034],
+          [6.598653902000024, 46.55597362800006],
+          [6.594619860000023, 46.55952215600007],
+          [6.5916587010000285, 46.560595060000026],
+          [6.586266120000062, 46.561446637000074],
+          [6.581074704000059, 46.562311686000044]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 52,
+        "Shape_Length": 0.03868611103372639,
+        "id": "TTI-9ee23c63-566c-4ebd-9d7e-4330863b8a45-TTR41212500308072000",
+        "iconCategory": 9,
+        "magnitudeOfDelay": 2,
+        "startTime": "2026-04-08T20:00:00Z",
+        "endTime": "2026-04-09T14:00:00Z",
+        "fromStreet": "Lausanne-Blécherette (A9)",
+        "toStreet": "Échangeur Villars-Ste-Croix (A9)",
+        "length": 3124.8,
+        "delay": 120,
+        "timeValidity": "present",
+        "probabilityOfOccurrence": "probable",
+        "eventDescription": "Travaux de nuit et voies réduites",
+        "color": "#F5B041"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.621392329000059, 46.53616820700006],
+          [6.621403058000055, 46.53637070500008],
+          [6.621395011000061, 46.53653964400007],
+          [6.621340026000041, 46.536773045000075],
+          [6.621125449000033, 46.537108326000066],
+          [6.62078346800007, 46.53743149700006]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 54,
+        "Shape_Length": 0.001484957601187928,
+        "id": "TTI-9ee23c63-566c-4ebd-9d7e-4330863b8a45-TTL41241354616023000",
+        "iconCategory": 6,
+        "magnitudeOfDelay": 3,
+        "startTime": "2026-04-09T07:33:00Z",
+        "endTime": "2026-04-09T07:57:30Z",
+        "fromStreet": "Avenue du Grey",
+        "toStreet": "Avenue du Grey",
+        "length": 153.12,
+        "delay": 448,
+        "timeValidity": "present",
+        "probabilityOfOccurrence": "certain",
+        "eventDescription": "Forte congestion urbaine",
+        "color": "#FF0000"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.626485844000058, 46.522285071000056],
+          [6.627364267000075, 46.522057087000064],
+          [6.62893738300005, 46.52165746400004],
+          [6.629968692000034, 46.52128056200007],
+          [6.630098779000036, 46.52110626900003],
+          [6.629939188000037, 46.52074816500004]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 60,
+        "Shape_Length": 0.004256836969339945,
+        "id": "TTI-9ee23c63-566c-4ebd-9d7e-4330863b8a45-TTR41250010688002000",
+        "iconCategory": 8,
+        "magnitudeOfDelay": 4,
+        "startTime": "2024-02-26T10:53:00Z",
+        "endTime": "2026-07-31T21:59:00Z",
+        "fromStreet": "Rue de Sébeillon (Rue de Genève)",
+        "toStreet": "Place De L'Europe (Flon)",
+        "length": 354.51,
+        "delay": null,
+        "timeValidity": "present",
+        "probabilityOfOccurrence": "certain",
+        "eventDescription": "Voie piétonne fermée aux véhicules",
+        "color": "#C0392B"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.63016181100005, 46.52112905000007],
+          [6.6297192470000255, 46.521453585000074],
+          [6.628953476000049, 46.52170302700006],
+          [6.628119309000056, 46.521917632000054],
+          [6.627262343000041, 46.52213488900003],
+          [6.626504619000059, 46.52233605500004]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 61,
+        "Shape_Length": 0.0039047716868247898,
+        "id": "TTI-9ee23c63-566c-4ebd-9d7e-4330863b8a45-TTR41250010868026000",
+        "iconCategory": 8,
+        "magnitudeOfDelay": 4,
+        "startTime": "2024-04-05T00:36:30Z",
+        "endTime": "2026-07-31T21:59:00Z",
+        "fromStreet": "Place De L'Europe (Flon)",
+        "toStreet": "Rue de Sébeillon (Rue de Genève)",
+        "length": 316.31,
+        "delay": null,
+        "timeValidity": "present",
+        "probabilityOfOccurrence": "certain",
+        "eventDescription": "Chantier Tramway T1 Lausanne",
+        "color": "#C0392B"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.634205241000075, 46.52440672500006],
+          [6.633755971000028, 46.52414385900005],
+          [6.63345690500006, 46.523948063000034],
+          [6.633192707000035, 46.52395740600008]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 63,
+        "Shape_Length": 0.001147872363991215,
+        "id": "TTI-9ee23c63-566c-4ebd-9d7e-4330863b8a45-TTR41250010848015000",
+        "iconCategory": 8,
+        "magnitudeOfDelay": 4,
+        "startTime": "2025-05-04T18:28:30Z",
+        "endTime": null,
+        "fromStreet": "Lausanne Centre",
+        "toStreet": "Rue du Tunnel / Place de la Riponne",
+        "length": 97.74,
+        "delay": null,
+        "timeValidity": "present",
+        "probabilityOfOccurrence": "probable",
+        "eventDescription": "Route fermée - Riponne",
+        "color": "#C0392B"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.646633257000076, 46.542826759000036],
+          [6.645489295000061, 46.54280934800005],
+          [6.644586731000061, 46.542727540000044],
+          [6.643830348000051, 46.54262290200006],
+          [6.64228137300006, 46.54237615100004]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 69,
+        "Shape_Length": 0.004382994557227545,
+        "id": "TTI-9ee23c63-566c-4ebd-9d7e-4330863b8a45-TTR41238469256024000",
+        "iconCategory": 9,
+        "magnitudeOfDelay": 1,
+        "startTime": "2026-03-24T03:30:00Z",
+        "endTime": "2026-04-09T14:00:00Z",
+        "fromStreet": "Lausanne-Vennes (A9)",
+        "toStreet": "Lausanne-Blécherette (A9)",
+        "length": 337.84,
+        "delay": 30,
+        "timeValidity": "present",
+        "probabilityOfOccurrence": "probable",
+        "eventDescription": "Travaux A9 Échangeur Vennes",
+        "color": "#F5B041"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.661169489000031, 46.53775472400008],
+          [6.664323766000052, 46.536577237000074],
+          [6.667720784000039, 46.53589594200008],
+          [6.671086956000067, 46.53538496400006],
+          [6.67449470300005, 46.53413373500007],
+          [6.677630205000071, 46.531553460000055],
+          [6.680066992000036, 46.52634461900004]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 73,
+        "Shape_Length": 0.023743705072721614,
+        "id": "TTI-9ee23c63-566c-4ebd-9d7e-4330863b8a45-TTR41252896420160000",
+        "iconCategory": 7,
+        "magnitudeOfDelay": 2,
+        "startTime": "2026-03-24T03:30:00Z",
+        "endTime": "2026-10-31T19:30:00Z",
+        "fromStreet": "Lausanne-Vennes (A9)",
+        "toStreet": "Belmont (A9)",
+        "length": 2093.07,
+        "delay": 180,
+        "timeValidity": "present",
+        "probabilityOfOccurrence": "probable",
+        "eventDescription": "Voies rétrécies & Radar tronçon",
+        "color": "#7F8C8D"
+      }
+    }
+  ]
+}

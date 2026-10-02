@@ -1,0 +1,6 @@
+{
+  "name": "ArcGIS Network Analyst & Dispatcher IA 3D",
+  "description": "Plateforme moderne de régulation des urgences et d'optimisation d'itinéraires avec ArcGIS Network Analyst, vue 2D/3D, bâtiments OSM transparents, trafic temps réel et IA cognitive.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
