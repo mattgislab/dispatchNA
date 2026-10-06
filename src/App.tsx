@@ -10,6 +10,22 @@ import { Ambulance, INITIAL_AMBULANCES } from './data/ambulances';
 import { Scenario } from './data/scenarios';
 import { generateDispatchAnalysis, DispatchAIReport } from './services/geminiService';
 
+const readStoredKey = (key: string) => {
+  try {
+    return window.sessionStorage.getItem(key) || '';
+  } catch {
+    return '';
+  }
+};
+
+const writeStoredKey = (key: string, value: string) => {
+  try {
+    window.sessionStorage.setItem(key, value);
+  } catch {
+    // Ignore storage quota failures; keep keys in memory only.
+  }
+};
+
 export default function App() {
   // Visualizer settings & theme
   const [viewMode, setViewMode] = useState<'2D' | '3D'>('3D');
@@ -18,11 +34,9 @@ export default function App() {
   const [showServiceAreas, setShowServiceAreas] = useState<boolean>(true);
 
   // API credentials (ESRI_Key, Gemini_Key, Tomtom_Key)
-  const [esriKey, setEsriKey] = useState<string>(() => localStorage.getItem('esri_api_key') || '');
-  const [geminiKey, setGeminiKey] = useState<string>(() => {
-    return localStorage.getItem('gemini_api_key');
-  });
-  const [tomtomKey, setTomtomKey] = useState<string>(() => localStorage.getItem('tomtom_api_key') || '');
+  const [esriKey, setEsriKey] = useState<string>(() => readStoredKey('esri_api_key'));
+  const [geminiKey, setGeminiKey] = useState<string>(() => readStoredKey('gemini_api_key'));
+  const [tomtomKey, setTomtomKey] = useState<string>(() => readStoredKey('tomtom_api_key'));
 
   // TomTom Traffic Display Mode: 'vector' (optimized for 3D) vs 'raster'
   const [trafficMode, setTrafficMode] = useState<'vector' | 'raster'>('vector');
@@ -38,8 +52,20 @@ export default function App() {
 
   // Modals
   const [isAuthModalOpen, setIsAuthModalOpen] = useState<boolean>(() => {
-    return !localStorage.getItem('has_configured_keys');
+    try {
+      return !window.sessionStorage.getItem('has_configured_keys');
+    } catch {
+      return true;
+    }
   });
+
+  const hasConfiguredKeys = (() => {
+    try {
+      return Boolean(window.sessionStorage.getItem('has_configured_keys'));
+    } catch {
+      return false;
+    }
+  })();
   const [isTrafficOpen, setIsTrafficOpen] = useState<boolean>(false);
   const [isFleetOpen, setIsFleetOpen] = useState<boolean>(false);
 
@@ -64,20 +90,20 @@ export default function App() {
   // Key savers
   const handleSaveEsriKey = (key: string) => {
     setEsriKey(key);
-    localStorage.setItem('esri_api_key', key);
-    localStorage.setItem('has_configured_keys', 'true');
+    writeStoredKey('esri_api_key', key);
+    writeStoredKey('has_configured_keys', 'true');
   };
 
   const handleSaveGeminiKey = (key: string) => {
     setGeminiKey(key);
-    localStorage.setItem('gemini_api_key', key);
-    localStorage.setItem('has_configured_keys', 'true');
+    writeStoredKey('gemini_api_key', key);
+    writeStoredKey('has_configured_keys', 'true');
   };
 
   const handleSaveTomtomKey = (key: string) => {
     setTomtomKey(key);
-    localStorage.setItem('tomtom_api_key', key);
-    localStorage.setItem('has_configured_keys', 'true');
+    writeStoredKey('tomtom_api_key', key);
+    writeStoredKey('has_configured_keys', 'true');
   };
 
   // Synchronize theme toggle with Esri 3D basemaps
@@ -267,7 +293,7 @@ export default function App() {
         onSaveGeminiKey={handleSaveGeminiKey}
         tomtomKey={tomtomKey}
         onSaveTomtomKey={handleSaveTomtomKey}
-        isInitialStartup={!localStorage.getItem('has_configured_keys')}
+        isInitialStartup={!hasConfiguredKeys}
       />
     </div>
   );
