@@ -20,7 +20,7 @@ export default function App() {
   // API credentials (ESRI_Key, Gemini_Key, Tomtom_Key)
   const [esriKey, setEsriKey] = useState<string>(() => localStorage.getItem('esri_api_key') || '');
   const [geminiKey, setGeminiKey] = useState<string>(() => {
-    return localStorage.getItem('gemini_api_key') || 'AIzaSyAEuiugClJ52WaZE63MqJJfZfqxMZbBtCI';
+    return localStorage.getItem('gemini_api_key');
   });
   const [tomtomKey, setTomtomKey] = useState<string>(() => localStorage.getItem('tomtom_api_key') || '');
 
